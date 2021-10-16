@@ -9,5 +9,5 @@ def login_page(request):
 def contact_us(request):
     return render(request, "pages/contact.html")
 
-def add_product(request):
+def shop(request, unique_id):
     return render(request, "pages/shop.html")
