@@ -8,3 +8,5 @@ class Book(models.Model):
         unique=True,
         primary_key=True,
         editable=False)
+
+
